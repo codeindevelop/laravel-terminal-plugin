@@ -29,7 +29,7 @@ $ pams
 2. Clone the repository into a new directory `laravel-artisan` :
 
     ```console
-    git clone https://github.com/codeindevelop/laravel-terminal-plugin.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/laravel-artisan
+    git clone https://github.com/codeindevelop/laravel-terminal-plugin.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/laravel-artisan laravel-artisan
     ```
 
 3. Enable `laravel-artisan` plugin by adding to your .zshrc configuration file:
