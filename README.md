@@ -15,7 +15,7 @@ $ php artisan migrate --seed
     
 there is more convenient alias:
 ```console
-$ pamgs
+$ pams
 ```
     
 ## Installation on oh-my-zsh
