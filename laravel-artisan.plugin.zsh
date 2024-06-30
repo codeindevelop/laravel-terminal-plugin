@@ -21,6 +21,7 @@ alias pau='artisan up'
 
 # custom
 alias fresh='artisan setup'
+alias fresh=' git push bit --all && git push github --all'
 
 
 #app
