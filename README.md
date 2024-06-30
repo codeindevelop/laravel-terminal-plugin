@@ -1,3 +1,6 @@
+# Laravel Termian plugin
+This project is forked and modified and Customized laravel-zsh-plugin for laravel 10+ versions by yamata
+
 # laravel-zsh-plugin - artisan commands aliases of Laravel 5+ Framework for zsh
 
 `laravel-zsh-plugin` contains short aliases for all artisan commands
@@ -12,7 +15,7 @@ $ php artisan migrate --seed
     
 there is more convenient alias:
 ```console
-$ amgs
+$ pamgs
 ```
     
 ## Installation on oh-my-zsh
@@ -43,18 +46,18 @@ $ amgs
 
 | Alias                | Command                                                                                                                                 |
 |:---------------------|:--------------------------------|
-| a                    | php artisan
-| av                   | php artisan -V
-| acc                  | php artisan clear-compiled
-| ad                   | php artisan down
-| ae                   | php artisan env
-| ah                   | php artisan help
-| ai                   | php artisan inspire
-| al                   | php artisan list
-| ap                   | php artisan preset
-| as                   | php artisan serve
-| at                   | php artisan tinker
-| au                   | php artisan up
+| pa                    | php artisan
+| pav                   | php artisan -V
+| pacc                  | php artisan clear-compiled
+| pad                   | php artisan down
+| pae                   | php artisan env
+| pah                   | php artisan help
+| pai                   | php artisan inspire
+| pal                   | php artisan list
+| pap                   | php artisan preset
+| pas                   | php artisan serve
+| pat                   | php artisan tinker
+| pau                   | php artisan up
 
 #### App
 
@@ -72,69 +75,69 @@ $ amgs
 
 | Alias                | Command                                                                                                                                 |
 |:---------------------|:--------------------------------|
-| accl                 | php artisan cache:clear
-| acfg                 | php artisan cache:forget
-| actb                 | php artisan cache:table
+| paccl                 | php artisan cache:clear
+| pacfg                 | php artisan cache:forget
+| pactb                 | php artisan cache:table
 
 #### Config
 
 | Alias                | Command                                                                                                                                 |
 |:---------------------|:--------------------------------|
-| acfcc                | php artisan config:cache
-| acfcl                | php artisan config:clear
+| pacfcc                | php artisan config:cache
+| pacfcl                | php artisan config:clear
 
 #### Common 
 
 | Alias                 | Command                                                                                                                                 |
 |:----------------------|:--------------------------------|
-|adbs                   |php artisan db:seed
-|aeg                    |php artisan event:generate
-|akg                    |php artisan key:generate
+|padbs                   |php artisan db:seed
+|paeg                    |php artisan event:generate
+|pakg                    |php artisan key:generate
 
 #### Make
 
 | Alias                 | Command                                                                                                                                 |
 |:----------------------|:--------------------------------|
-|amkau                  |php artisan make:auth
-|amkch                  |php artisan make:channel
-|amkcm                  |php artisan make:command
-|amkct                  |php artisan make:controller
-|amkctr                 |php artisan make:controller -r
-|amkev                  |php artisan make:event
-|amkex                  |php artisan make:exception
-|amkfc                  |php artisan make:factory
-|amkjb                  |php artisan make:job
-|amkls                  |php artisan make:listener
-|amkml                  |php artisan make:mail
-|amkmw                  |php artisan make:middleware
-|amkmg                  |php artisan make:migration
-|amkmd                  |php artisan make:model
-|amkmdm                 |php artisan make:model -m
-|amknf                  |php artisan make:notification
-|amkos                  |php artisan make:observer
-|amkpl                  |php artisan make:policy
-|amkpv                  |php artisan make:provider
-|amkrq                  |php artisan make:request
-|amkres                 |php artisan make:resource
-|amkrl                  |php artisan make:rule
-|amksd                  |php artisan make:seeder
-|amkts                  |php artisan make:test
+|pamkau                  |php artisan make:auth
+|pamkch                  |php artisan make:channel
+|pamkcm                  |php artisan make:command
+|pamkct                  |php artisan make:controller
+|pamkctr                 |php artisan make:controller -r
+|pamkev                  |php artisan make:event
+|pamkex                  |php artisan make:exception
+|pamkfc                  |php artisan make:factory
+|pamkjb                  |php artisan make:job
+|pamkls                  |php artisan make:listener
+|pamkml                  |php artisan make:mail
+|pamkmw                  |php artisan make:middleware
+|pamkmg                  |php artisan make:migration
+|pamkmd                  |php artisan make:model
+|pamkmdm                 |php artisan make:model -m
+|pamknf                  |php artisan make:notification
+|pamkos                  |php artisan make:observer
+|pamkpl                  |php artisan make:policy
+|pamkpv                  |php artisan make:provider
+|pamkrq                  |php artisan make:request
+|pamkres                 |php artisan make:resource
+|pamkrl                  |php artisan make:rule
+|pamksd                  |php artisan make:seeder
+|pamkts                  |php artisan make:test
 
 #### Migrate
 
 | Alias                 | Command                                                                                                                                 |
 |:----------------------|:--------------------------------|
-|amg                    |php artisan migrate
-|amgf                   |php artisan migrate --force
-|amgs                   |php artisan migrate --seed
-|amgp                   |php artisan migrate --pretend
-|amgt                   |php artisan migrate --env=testing
-|amgfr                  |php artisan migrate:fresh
-|amgis                  |php artisan migrate:install
-|amgrf                  |php artisan migrate:refresh
-|amgrs                  |php artisan migrate:reset
-|amgrb                  |php artisan migrate:rollback
-|amgst                  |php artisan migrate:status
+|pamg                    |php artisan migrate
+|pamgf                   |php artisan migrate --force
+|pamgs                   |php artisan migrate --seed
+|pamgp                   |php artisan migrate --pretend
+|pamgt                   |php artisan migrate --env=testing
+|pamgfr                  |php artisan migrate:fresh
+|pamgis                  |php artisan migrate:install
+|pamgrf                  |php artisan migrate:refresh
+|pamgrs                  |php artisan migrate:reset
+|pamgrb                  |php artisan migrate:rollback
+|pamgst                  |php artisan migrate:status
 
 #### Notifications
 
@@ -159,82 +162,82 @@ $ amgs
 
 | Alias                 | Command                                                                                                                                 |
 |:----------------------|:--------------------------------|
-|aqf                    |php artisan queue:failed
-|aqft                   |php artisan queue:failed-table
-|aqfl                   |php artisan queue:flush
-|aqfg                   |php artisan queue:forget
-|aqls                   |php artisan queue:listen
-|aqrs                   |php artisan queue:restart
-|aqrt                   |php artisan queue:retry
-|aqtb                   |php artisan queue:table
-|aqwk                   |php artisan queue:work
+|paqf                    |php artisan queue:failed
+|paqft                   |php artisan queue:failed-table
+|paqfl                   |php artisan queue:flush
+|paqfg                   |php artisan queue:forget
+|paqls                   |php artisan queue:listen
+|paqrs                   |php artisan queue:restart
+|paqrt                   |php artisan queue:retry
+|paqtb                   |php artisan queue:table
+|paqwk                   |php artisan queue:work
 
 #### Route
 
 | Alias                 | Command                                                                                                                                 |
 |:----------------------|:--------------------------------|
-|arcc                   |php artisan route:cache
-|arcl                   |php artisan route:clear
-|arls                   |php artisan route:list
+|parcc                   |php artisan route:cache
+|parcl                   |php artisan route:clear
+|parls                   |php artisan route:list
 
 #### Schedule
 
 | Alias                 | Command                                                                                                                                 |
 |:----------------------|:--------------------------------|
-|asfn                   |php artisan schedule:finish
-|asrn                   |php artisan schedule:run
+|pasfn                   |php artisan schedule:finish
+|pasrn                   |php artisan schedule:run
 
 #### Session
 
 | Alias                 | Command                                                                                                                                 |
 |:----------------------|:--------------------------------|
-|astb                   |php artisan session:table
+|pastb                   |php artisan session:table
 
 #### Storage
 
 | Alias                 | Command                                                                                                                                 |
 |:----------------------|:--------------------------------|
-|asln                   |php artisan storage:link
+|pasln                   |php artisan storage:link
 
 #### Vendor
 
 | Alias                 | Command                                                                                                                                 |
 |:----------------------|:--------------------------------|
-|avpb                   |php artisan vendor:publish
+|pavpb                   |php artisan vendor:publish
 
 #### View
 
 | Alias                 | Command                                                                                                                                 |
 |:----------------------|:--------------------------------|
-|avcc                   |php artisan view:cache
-|avcl                   |php artisan view:clear
+|pavcc                   |php artisan view:cache
+|pavcl                   |php artisan view:clear
 
 #### Horizon
 
 | Alias                 | Command                                                                                                                                 |
 |:----------------------|:--------------------------------|
-|ahz                    |php artisan artisan horizon
-|ahzas                  |php artisan artisan horizon:assets
-|ahzct                  |php artisan artisan horizon:continue
-|ahzls                  |php artisan artisan horizon:list
-|ahzps                  |php artisan artisan horizon:pause
-|ahzpg                  |php artisan artisan horizon:purge
-|ahzss                  |php artisan artisan horizon:snapshot
-|ahzsv                  |php artisan artisan horizon:supervisor
-|ahzsvs                 |php artisan artisan horizon:supervisors
-|ahztm                  |php artisan artisan horizon:terminate
-|ahzto                  |php artisan artisan horizon:timeout
-|ahzwk                  |php artisan artisan horizon:work
+|pahz                    |php artisan artisan horizon
+|pahzas                  |php artisan artisan horizon:assets
+|pahzct                  |php artisan artisan horizon:continue
+|pahzls                  |php artisan artisan horizon:list
+|pahzps                  |php artisan artisan horizon:pause
+|pahzpg                  |php artisan artisan horizon:purge
+|pahzss                  |php artisan artisan horizon:snapshot
+|pahzsv                  |php artisan artisan horizon:supervisor
+|pahzsvs                 |php artisan artisan horizon:supervisors
+|pahztm                  |php artisan artisan horizon:terminate
+|pahzto                  |php artisan artisan horizon:timeout
+|pahzwk                  |php artisan artisan horizon:work
 
 #### Old framework versions commands
 
 | Alias                 | Command                                                                                                                                 |
 |:----------------------|:--------------------------------|
-|amkcs                  |php artisan make:console
-|ahcm                   |php artisan handler:command
-|ahev                   |php artisan handler:event
-|aqss                   |php artisan queue:subscribe
-|afr                    |php artisan fresh
+|pamkcs                  |php artisan make:console
+|pahcm                   |php artisan handler:command
+|pahev                   |php artisan handler:event
+|paqss                   |php artisan queue:subscribe
+|pafr                    |php artisan fresh
 
 
 ## License
